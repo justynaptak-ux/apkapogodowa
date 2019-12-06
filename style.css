@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5vw;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  font-family: "Raleway", Sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(37, 106, 134), white);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.txtnav {
+  color: rgb(25, 86, 110);
+  font-size: 2.6vw;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.firstsentence {
+  margin-top: -45%;
+  margin-bottom: 5%;
+  color: rgb(253, 175, 17);
+  font-size: 2.6vw;
+}
+
+.description {
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(img/mazury.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 2.6vw;
+}
+
+.txt {
+  color: rgba(37, 106, 134, 1);
+  font-size: 2.6vw;
+  margin: 0%;
+  padding: 10%;
+}
+
+.input {
+  font-family: "Raleway", Sans-serif;
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+  color: rgb(40, 136, 173);
+  font-size: 2vw;
+  width: 80%;
+}
+
+.dropbtn {
+  background-color: rgba(253, 174, 17, 0.644);
+  color: rgb(40, 136, 173);
+  padding: 1vw;
+  font-size: 1.2vw;
+  border: none;
+  cursor: pointer;
+  width: 30vw;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(253, 174, 17, 0.644);
+  box-shadow: 0vw 0.5vw 1vw 0vw rgba(0, 0, 0, 0.2);
+  width: 30vw;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(40, 136, 173);
+  padding: 2%;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 211, 122, 0.644);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* WEATHER PAGE*/
+
+.widgetcontainer {
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(img/weather.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+  font-size: 2.6vw;
+}
+
+.widget {
+  height: 90%;
+  width: 50%;
+  border-color: thistle;
+  background-color: rgba(231, 231, 231, 0.836);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dailycontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.widgetcontent {
+  padding: 2%;
+  margin: 1.5%;
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.weathertxt {
+  font-size: 2.5vw;
+  color: rgba(37, 106, 134, 1);
+}
+
+.currenttemperature {
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  color: rgba(37, 106, 134, 1);
+  text-align: left;
+}
+
+#sun {
+  font-size: 1vw;
+  width: 50%;
+}
+
+.temperature {
+  height: 100%;
+  width: 30%;
+  color: rgba(37, 106, 134, 1);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sun {
+  margin-left: -3%;
+}
+
+/* #mainicon {
+  width: 50%;
+  height: 50%;
+} */
+
+#nextdays {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.fa-arrow-right {
+  color: rgb(253, 174, 17);
+  font-size: 2.2vw;
+}
+
+.fa-arrow-left {
+  color: rgb(253, 174, 17);
+  font-size: 2.2vw;
+}
+
+
+
+/* ICONS
+https: //www.w3schools.com/charsets/ref_utf_symbols.asp 
+https: //www.w3schools.com/icons/fontawesome5_icons_weather.asp
+*/
