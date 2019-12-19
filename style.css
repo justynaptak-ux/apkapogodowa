@@ -120,7 +120,7 @@ body {
   width: 60%;
   height: 100%;
   box-sizing: border-box;
-  background-image: url(img/weather.jpeg);
+  background-image: url(weather.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
