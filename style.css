@@ -137,20 +137,19 @@ body {
   width: 50%;
   border-color: thistle;
   background-color: rgba(231, 231, 231, 0.836);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; */
 }
 
 .dailycontainer {
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .widgetcontent {
@@ -160,6 +159,7 @@ body {
   height: 10%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -192,7 +192,11 @@ body {
 }
 
 #sun {
-  margin-left: -3%;
+  margin-right: -30%;
+}
+
+#windspeed {
+  margin-left: 10%;
 }
 
 /* #mainicon {
@@ -215,8 +219,6 @@ body {
   color: rgb(253, 174, 17);
   font-size: 2.2vw;
 }
-
-
 
 /* ICONS
 https: //www.w3schools.com/charsets/ref_utf_symbols.asp 
